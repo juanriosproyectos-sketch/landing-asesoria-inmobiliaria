@@ -17,7 +17,10 @@
 <!-- ============ HEADER MÍNIMO ============ -->
 <header class="site-header">
   <div class="container header-inner">
-    <span class="brand">ANÁLISIS &amp; ESTRUCTURA</span>
+    <span class="brand">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 21h18M6 21V9l6-4 6 4v12M10 21v-6h4v6"/></svg>
+      ANÁLISIS &amp; ESTRUCTURA
+    </span>
     <a href="#cta-final" class="btn btn-ghost btn-small">Agendar asesoría</a>
   </div>
 </header>
@@ -80,40 +83,62 @@
 
 <!-- ============ SECCIÓN 4 · AUTORIDAD ============ -->
 <section class="section section-navy" id="autoridad">
-  <div class="container narrow reveal">
-    <span class="section-tag">Trayectoria</span>
-    <h2>Experiencia en análisis financiero inmobiliario</h2>
-    <p class="lead">He participado en el análisis de proyectos inmobiliarios dentro del sector de banca empresarial, evaluando su viabilidad para determinar si pueden ser financiados.</p>
-
-    <p class="sub-label">He trabajado en proyectos de:</p>
-    <div class="pill-row">
-      <span class="pill">Residencial</span>
-      <span class="pill">Comercial</span>
-      <span class="pill">Turístico</span>
-      <span class="pill">Hotelero</span>
+  <div class="container split split-media-first reveal">
+    <div class="split-media split-media-navy">
+      <img src="https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=1200&q=80" alt="Edificios modernos de uso comercial y residencial">
     </div>
+    <div class="split-text">
+      <span class="section-tag">Trayectoria</span>
+      <h2>Experiencia en análisis financiero inmobiliario</h2>
+      <p class="lead">He participado en el análisis de proyectos inmobiliarios dentro del sector de banca empresarial, evaluando su viabilidad para determinar si pueden ser financiados.</p>
 
-    <div class="stat-block">
-      <span class="stat-label">Con financiamientos desde</span>
-      <span class="stat-number">$25M &mdash; $700M<span class="stat-unit">+ MXN</span></span>
+      <p class="sub-label">He trabajado en proyectos de:</p>
+      <div class="pill-row">
+        <span class="pill">Residencial</span>
+        <span class="pill">Comercial</span>
+        <span class="pill">Turístico</span>
+        <span class="pill">Hotelero</span>
+      </div>
+
+      <div class="stat-block">
+        <span class="stat-label">Con financiamientos desde</span>
+        <span class="stat-number">$25M &mdash; $700M<span class="stat-unit">+ MXN</span></span>
+      </div>
+
+      <p class="impact-phrase">“Mi trabajo era decidir si un proyecto era financiable o no.”</p>
     </div>
-
-    <p class="impact-phrase">“Mi trabajo era decidir si un proyecto era financiable o no.”</p>
   </div>
 </section>
 
 <!-- ============ SECCIÓN 5 · QUÉ INCLUYE ============ -->
 <section class="section section-light" id="incluye">
-  <div class="container narrow reveal">
-    <span class="section-tag section-tag-dark">El servicio</span>
-    <h2>Asesoría personalizada de 45 minutos</h2>
-    <ul class="check-list check-list-grid">
-      <li>Análisis de tu terreno o proyecto</li>
-      <li>Evaluación de viabilidad</li>
-      <li>Identificación de riesgos</li>
-      <li>Recomendación estratégica</li>
-      <li>Definición de siguiente paso</li>
-    </ul>
+  <div class="container reveal">
+    <div class="section-head">
+      <span class="section-tag section-tag-dark">El servicio</span>
+      <h2>Asesoría personalizada de 45 minutos</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg></span>
+        <p>Análisis de tu terreno o proyecto</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><path d="M12 3l7 4v5c0 4.5-3 8-7 9-4-1-7-4.5-7-9V7l7-4z"/></svg></span>
+        <p>Evaluación de viabilidad</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l9 16H3L12 3z"/><path d="M12 10v4M12 17h.01"/></svg></span>
+        <p>Identificación de riesgos</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M15 9l-3.5 6-2.5-2 6-4z"/></svg></span>
+        <p>Recomendación estratégica</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <p>Definición de siguiente paso</p>
+      </div>
+    </div>
     <p class="impact-phrase impact-phrase-dark">Sales con claridad, no con dudas.</p>
   </div>
 </section>
@@ -122,8 +147,10 @@
 <section class="section section-gray" id="precio">
   <div class="container narrow center reveal">
     <span class="section-tag section-tag-dark">Inversión</span>
-    <p class="price-tag">$2,000 <span>MXN</span></p>
-    <p class="impact-phrase impact-phrase-dark">Una mala decisión puede costarte mucho más.</p>
+    <div class="price-card">
+      <p class="price-tag">$2,000 <span>MXN</span></p>
+      <p class="impact-phrase impact-phrase-dark">Una mala decisión puede costarte mucho más.</p>
+    </div>
   </div>
 </section>
 
